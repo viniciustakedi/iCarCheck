@@ -1,0 +1,7 @@
+
+// Para o input subir quando o teclado for ativado.
+<KeyboardAvoidingView
+    style={{ flex: 1 }}
+    behavior={Platform.OS === "ios" ? "padding" : "height"}
+    keyboardVerticalOffset={Platform.OS === "ios" ? 50 : -240}>        
+</KeyboardAvoidingView>

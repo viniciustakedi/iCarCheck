@@ -1,0 +1,1 @@
+import { createBottomTabNavigator } from '@react-native/bottom-tabs';
